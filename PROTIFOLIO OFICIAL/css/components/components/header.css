@@ -1,0 +1,54 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: relative;
+  gap: 4rem;
+  scroll-margin-top: 20rem;
+}
+
+header .header__left {
+  max-width: 62rem;
+  flex: 1;
+}
+
+header .header__left p {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  max-width: 30rem;
+}
+
+header .header__right .header__image {
+  position: relative;
+  line-height: 1;
+}
+
+header .header__right .header__image::after {
+  content: '';
+  display: block;
+  width: 10%;
+  height: 10%;
+  border: 1px solid var(black);
+  position: absolute;
+  top: -1.5rem;
+  right: -1.5rem;
+  border-radius: 0.5rem;
+  z-index: -1;
+}
+
+header .header__right .header__image .barbara {
+  border-radius: 0.5rem;
+  min-width: 5rem;
+  max-width: 50%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  header .header__left p {
+    margin: 2rem auto 4rem;
+  }
+}

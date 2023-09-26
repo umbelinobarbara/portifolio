@@ -1,0 +1,31 @@
+@import './components/variables.css';
+@import './components/globals.css';
+
+@import './components/components/navbar.css';
+@import './components/components/header.css';
+@import './components/components/about.css';
+@import './components/components/skills.css';
+@import './components/components/projects.css';
+@import './components/components/footer.css';
+@import './components/components/style.css';
+
+/* Estilizando o scroll vertical */
+::-webkit-scrollbar {
+    width: 10px; /* Largura do scroll */
+  }
+  
+  /* Cor de fundo do scroll */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Cor da barra de rolagem */
+  ::-webkit-scrollbar-thumb {
+    background-color: #115692;
+  }
+  
+  /* Estilo quando passar o mouse sobre o scroll */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #0056b3;
+  }
+  
